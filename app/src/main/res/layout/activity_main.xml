@@ -28,36 +28,37 @@
             android:orientation="horizontal"
             android:layout_gravity="bottom"
             android:foregroundGravity="bottom"
-            android:paddingTop="50dp"
+            android:paddingTop="80dp"
             android:gravity="bottom">
+
             <TextView
                 android:id="@+id/empty_spacer"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:drawableTop="@drawable/ic_menu_share"
+                android:drawableTop="@drawable/school"
                 android:gravity="center"
-                android:text="Share" />
+                android:text="How to use Application" />
 
             <TextView
                 android:id="@+id/mnuRate"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:drawableTop="@drawable/ic_menu_camera"
+                android:drawableTop="@drawable/edit"
                 android:gravity="center"
-                android:text="Rate" />
+                android:text="Add a School" />
 
             <TextView
                 android:id="@+id/mnuHelp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:drawableTop="@drawable/ic_menu_gallery"
+                android:drawableTop="@drawable/school"
                 android:gravity="center"
-                android:text="Help" />
+                android:text="My School" />
+            </LinearLayout>
 
-        </LinearLayout>
     </android.support.design.widget.NavigationView>
 
 </android.support.v4.widget.DrawerLayout>
